@@ -1,0 +1,43 @@
+{
+    "name": "new fall guys 8 bit v8.0",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.9.2",
+        "Timers": "github:microsoft/arcade-timers#v1.0.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "spritePack": "github:gideonmayhew/spritepack#7d09e2291c0a89464ba8eef21e6495ef0695a309",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "Lucas pack1": "github:lucasmayhew/lucas_pack1#18a61097be55529bf68a757096efeeb671db8fa0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
+        "Achievements": "github:UnsignedArduino/Achievements#a578c77dd75467b9b0b5238a9a31c5fdc427cb9d",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.6",
+        "tag": "v1.2.6",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/7f343e1ba30a4c31de6b7b14d288d34b2741b2f4",
+        "target": "1.4.30",
+        "pxt": "6.2.21",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
